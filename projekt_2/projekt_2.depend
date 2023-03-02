@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1623828038 source:d:\programowanie\projekt2\projekt_2\main.cpp
+	<iostream>
+	"interfejs.h"
+	"kierunek.h"
+	"przedmiot.h"
+	"student.h"
+	"pracownik.h"
+
+1623056524 source:d:\programowanie\projekt2\projekt_2\src\interfejs.cpp
+	"interfejs.h"
+	<iostream>
+
+1623055874 d:\programowanie\projekt2\projekt_2\include\interfejs.h
+	<vector>
+	"kierunek.h"
+	"przedmiot.h"
+	"student.h"
+
+1623828193 source:d:\programowanie\projekt2\projekt_2\src\kierunek.cpp
+	"kierunek.h"
+
+1623057815 d:\programowanie\projekt2\projekt_2\include\kierunek.h
+	"przedmiot.h"
+	<vector>
+	"student.h"
+
+1623055800 d:\programowanie\projekt2\projekt_2\include\przedmiot.h
+	<iostream>
+
+1623055373 source:d:\programowanie\projekt2\projekt_2\src\przedmiot.cpp
+	"przedmiot.h"
+
+1623057815 d:\programowanie\projekt2\projekt_2\include\student.h
+	<iostream>
+	"przedmiot.h"
+	<vector>
+
+1623828294 source:d:\programowanie\projekt2\projekt_2\src\student.cpp
+	"student.h"
+
+1623676221 source:d:\programowanie\projekt2\projekt_2\src\pracownik.cpp
+	"pracownik.h"
+
+1623676200 d:\programowanie\projekt2\projekt_2\include\pracownik.h
+	<student.h>
+	<osoba.h>
+
+1623676048 source:d:\programowanie\projekt2\projekt_2\src\osoba.cpp
+	"osoba.h"
+
+1623676180 d:\programowanie\projekt2\projekt_2\include\osoba.h
+
